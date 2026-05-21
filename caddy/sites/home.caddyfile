@@ -1,0 +1,8 @@
+home.akali.xyz {
+    reverse_proxy host.docker.internal:3000
+    
+    # 日志
+    log {
+        output file /var/log/caddy/home.log
+    }
+}

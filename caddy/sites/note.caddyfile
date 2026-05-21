@@ -1,0 +1,13 @@
+note.akali.xyz {
+    reverse_proxy host.docker.internal:8080
+    
+    # 上传文件大小限制
+    request_body {
+        max_size 20MB
+    }
+    
+    # 日志
+    log {
+        output file /var/log/caddy/flatnotes.log
+    }
+}
