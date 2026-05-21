@@ -1,5 +1,5 @@
 note.akali.xyz {
-    reverse_proxy flatnotes:8080
+    reverse_proxy host.docker.internal:8080
     
     # 自动 HTTPS (Let's Encrypt)
     # 需要配置邮箱用于证书通知
