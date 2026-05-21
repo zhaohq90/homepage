@@ -99,7 +99,7 @@
 | Caddy | 反向代理 / HTTPS 入口 | [caddy/](caddy/) | [caddy.md](caddy.md) | *.akali.xyz |
 | Homepage | 服务仪表盘 | [homepage/](homepage/) | [homepage.md](homepage.md) | [home.akali.xyz](https://home.akali.xyz) |
 | Flatnotes | Markdown 笔记 | [flatnotes/](flatnotes/) | [flatnotes.md](flatnotes.md) | [note.akali.xyz](https://note.akali.xyz) |
-| Alist | 文件列表管理 | [alist/](alist/) | [alist.md](alist.md) | file.akali.xyz (待DNS) |
+| Alist | 文件列表管理 | [alist/](alist/) | [alist.md](alist.md) | [alist.akali.xyz](https://alist.akali.xyz) |
 
 ---
 

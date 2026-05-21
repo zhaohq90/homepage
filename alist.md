@@ -9,7 +9,7 @@
 | 容器名 | alist |
 | 镜像 | xhofe/alist:latest |
 | 端口 | 5244 |
-| 域名 | file.akali.xyz (待配置 DNS) |
+| 域名 | [alist.akali.xyz](https://alist.akali.xyz) |
 
 ## 目录结构
 
@@ -100,14 +100,13 @@ Alist 支持多种存储后端：
 
 ## 配置步骤
 
-1. 启动服务后访问 `https://file.akali.xyz`
+1. 启动服务后访问 `https://alist.akali.xyz`
 2. 使用 admin/Alist@2026 登录
 3. 在「设置」→「存储」添加存储源
 4. 配置存储路径和访问权限
 
 ## 注意事项
 
-- 需配置 DNS: `file.akali.xyz` → VPS IP
 - 首次登录后建议修改默认密码
 - 添加存储源时注意配置正确的根路径
 

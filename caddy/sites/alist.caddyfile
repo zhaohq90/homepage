@@ -1,4 +1,4 @@
-file.akali.xyz {
+alist.akali.xyz {
     reverse_proxy host.docker.internal:5244
     
     # 日志
