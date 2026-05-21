@@ -1,0 +1,4 @@
+---
+# 本地 Docker Socket 连接
+my-docker:
+  socket: /var/run/docker.sock

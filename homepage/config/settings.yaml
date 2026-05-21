@@ -1,0 +1,21 @@
+---
+# Homepage 设置
+# 文档: https://gethomepage.dev/configs/settings/
+
+title: 服务仪表板
+
+# 主题设置
+theme: dark
+color: slate
+
+# 布局
+headerStyle: boxed
+
+# 快速搜索
+quicklaunch:
+  searchDescriptions: true
+  hideInternetSearch: false
+  hideVisitURL: false
+
+# 显示 Docker 容器状态
+showStats: true

@@ -1,0 +1,28 @@
+---
+# 与服务相关的快速链接
+- Flatnotes 相关:
+    - 笔记服务:
+        - abbr: FN
+          href: https://note.akali.xyz
+          description: Flatnotes 笔记
+
+    - 项目目录:
+        - abbr: DIR
+          href: file:///root/projects/flatnotes
+          description: 本地项目目录
+
+    - 备份日志:
+        - abbr: LOG
+          href: file:///root/projects/flatnotes/backup.log
+          description: Git 备份日志
+
+- 文档资源:
+    - Flatnotes 文档:
+        - abbr: DOC
+          href: https://github.com/dullage/flatnotes
+          description: GitHub 仓库
+
+    - Caddy 文档:
+        - abbr: CD
+          href: https://caddyserver.com/docs/
+          description: Caddy 官方文档

@@ -1,0 +1,1 @@
+docker compoe up -d

@@ -1,0 +1,17 @@
+note.akali.xyz {
+    reverse_proxy flatnotes:8080
+    
+    # 自动 HTTPS (Let's Encrypt)
+    # 需要配置邮箱用于证书通知
+    tls admin@akali.xyz
+    
+    # 上传文件大小限制
+    request_body {
+        max_size 20MB
+    }
+    
+    # 日志
+    log {
+        output file /var/log/caddy/flatnotes.log
+    }
+}
