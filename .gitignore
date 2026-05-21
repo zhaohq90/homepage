@@ -1,0 +1,13 @@
+# 数据目录
+flatnotes/data/
+homepage/config/logs/
+
+# 临时文件
+*.log
+*.tmp
+
+# 环境变量（敏感信息）
+.env
+
+# 大型脚本
+linux.sh
