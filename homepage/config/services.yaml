@@ -1,29 +1,39 @@
 ---
-# 笔记服务组 - 所有相关资源聚合在一起
-- 笔记服务:
-    - Flatnotes:
-        href: https://note.akali.xyz
-        description: "Markdown 笔记服务 | 域名: note.akali.xyz"
-        icon: flatnotes.png
-        server: my-docker
-        container: flatnotes
-
-    - Caddy 反代:
-        href: https://note.akali.xyz
-        description: "反向代理服务 | 自动 HTTPS"
+# 入口网关
+- 入口网关:
+    - Caddy:
         icon: caddy.png
+        description: "反向代理 | 自动 HTTPS | 总入口"
         server: my-docker
         container: caddy
 
-# 备份服务组
-- 备份与维护:
-    - Git 备份脚本:
-        href: https://github.com/
-        description: "每 5 分钟自动备份 | 日志: backup.log"
-        icon: github.png
-
-# 快速链接组
-- 自建服务:
+# 仪表盘
+- 仪表盘:
     - Homepage:
-        href: http://localhost:3000
-        description: "当前仪表板"
+        href: https://home.akali.xyz
+        icon: homepage.png
+        description: "服务仪表板"
+        server: my-docker
+        container: homepage
+
+# 笔记服务组
+- 笔记服务:
+    - Flatnotes:
+        href: https://note.akali.xyz
+        icon: flatnotes.png
+        description: "Markdown 笔记服务"
+        server: my-docker
+        container: flatnotes
+
+    - Flatnotes 备份:
+        icon: mdi-backup-restore
+        description: "每 5 分钟自动备份到 Git"
+
+# 文件列表
+- 文件服务:
+    - Alist:
+        href: https://alist.akali.xyz
+        icon: alist.png
+        description: "文件列表程序"
+        server: my-docker
+        container: alist

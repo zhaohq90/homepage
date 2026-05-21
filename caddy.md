@@ -120,3 +120,15 @@ docker exec caddy caddy reload --config /etc/caddy/Caddyfile
 - **必须挂载 sites 目录**：否则 `import sites/*.caddyfile` 无法生效
 - **必须配置 extra_hosts**：否则 `host.docker.internal` 无法解析
 - SSL 证书自动申请，首次访问可能需要等待证书生成
+
+## 服务认证
+
+### Homepage (home.akali.xyz)
+
+| 属性 | 值 |
+|------|-----|
+| 用户名 | admin |
+| 密码 | Akali@2026 |
+| 认证方式 | Basic Auth |
+
+> 访问 Homepage 仪表板需要输入用户名和密码
