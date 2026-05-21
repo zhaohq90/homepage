@@ -1,0 +1,8 @@
+file.akali.xyz {
+    reverse_proxy host.docker.internal:5244
+    
+    # 日志
+    log {
+        output file /var/log/caddy/alist.log
+    }
+}
