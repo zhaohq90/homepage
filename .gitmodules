@@ -2,3 +2,4 @@
 	path = flatnotes/data
 	url = git@github.com:zhaohq90/flatnotes.git
 	branch = data
+	ignore = all
