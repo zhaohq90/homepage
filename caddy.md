@@ -20,7 +20,7 @@ caddy/
 └── sites/              # 域名配置目录
     ├── home.caddyfile  # home.akali.xyz 配置
     ├── note.caddyfile  # note.akali.xyz 配置
-    └── file.caddyfile  # file.akali.xyz 配置
+    └── alist.caddyfile  # alist.akali.xyz 配置
 ```
 
 ## 挂载目录

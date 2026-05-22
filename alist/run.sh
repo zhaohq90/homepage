@@ -47,7 +47,7 @@ start_container() {
     
     if docker ps --format '{{.Names}}' | grep -q "^${CONTAINER_NAME}$"; then
         log_info "Alist 服务运行中"
-        log_info "访问地址: https://file.akali.xyz"
+        log_info "访问地址: https://alist.akali.xyz"
         log_info "本地地址: http://127.0.0.1:${PORT}"
         docker logs --tail 10 ${CONTAINER_NAME}
     else
