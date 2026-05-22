@@ -2,8 +2,8 @@
 # Flatnotes Git 自动备份脚本
 # 每 5 分钟检查变更并提交到主仓库
 
-PROJECT_DIR="/root/projects/flatnotes"
-LOG_FILE="/root/projects/flatnotes/backup.log"
+PROJECT_DIR="/data/homepage/flatnotes"
+LOG_FILE="/data/homepage/flatnotes/backup.log"
 
 cd "$PROJECT_DIR" || exit 1
 
