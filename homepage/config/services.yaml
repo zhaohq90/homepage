@@ -43,3 +43,10 @@
         description: "文件列表程序"
         server: my-docker
         container: alist
+
+# 社交服务
+- 社交服务:
+    - X Like Manager:
+        href: https://x.akali.xyz
+        icon: mdi-twitter
+        description: "X 数据管理服务"
