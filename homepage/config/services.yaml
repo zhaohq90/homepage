@@ -29,6 +29,12 @@
         icon: mdi-backup-restore
         description: "每 5 分钟自动备份到 Git"
 
+# 数据库备份
+- 数据库备份:
+    - MySQL 备份:
+        icon: mdi-database-export
+        description: "每天凌晨 2 点自动备份到阿里云 OSS"
+
 # 文件列表
 - 文件服务:
     - Alist:
