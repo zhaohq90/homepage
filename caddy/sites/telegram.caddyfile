@@ -1,0 +1,13 @@
+telegram.akali.xyz {
+    # Basic Auth 认证
+    basic_auth {
+        admin $2a$14$ffi9WEkNcXhCK9jJ55X5d.ZgDSeylcDdWW7LFKs3onzBijC4h.nu6
+    }
+
+    reverse_proxy host.docker.internal:5001
+
+    # 日志
+    log {
+        output file /var/log/caddy/telegram.log
+    }
+}

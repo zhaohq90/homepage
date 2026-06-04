@@ -50,3 +50,8 @@
         href: https://x.akali.xyz
         icon: mdi-twitter
         description: "X 数据管理服务"
+
+    - Telegram 下载器:
+        href: https://telegram.akali.xyz
+        icon: mdi-telegram
+        description: "Telegram 媒体下载器 | Basic Auth"
