@@ -55,3 +55,10 @@
         href: https://telegram.akali.xyz
         icon: mdi-telegram
         description: "Telegram 媒体下载器 | Basic Auth"
+
+# 邮件服务
+- 邮件服务:
+    - Cloud Mail:
+        href: https://mail.aprilfish.in
+        icon: mdi-email
+        description: "邮件服务"
