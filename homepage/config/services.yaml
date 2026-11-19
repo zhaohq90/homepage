@@ -16,15 +16,6 @@
         server: my-docker
         container: homepage
 
-# AI 服务
-- AI 服务:
-    - Open WebUI:
-        href: https://chat.akali.xyz
-        icon: open-webui.png
-        description: "AI 对话界面 | 模型接入 / 知识库"
-        server: my-docker
-        container: open-webui
-
 # 笔记服务组
 - 笔记服务:
     - Flatnotes:
